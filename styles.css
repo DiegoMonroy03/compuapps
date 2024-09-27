@@ -1,0 +1,84 @@
+
+/* Ajustar el tamaño del formulario */
+.login-form {
+  max-width: 100%; /* Asegura que no exceda el ancho del contenedor */
+  padding: 20px; /* Añadir relleno interno */
+}
+
+.card {
+  border-radius: 8px; /* Añadir bordes redondeados para un diseño más moderno */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añadir sombra para destacar el formulario */
+}
+
+@media (max-width: 576px) {
+  .login-form {
+    padding: 15px; /* Reducir el padding en pantallas pequeñas */
+  }
+}
+
+
+
+.responsive-img-container {
+    max-width: 100%; /* Ajusta el tamaño máximo del contenedor */
+    overflow: hidden; /* Evita que la imagen se desborde del contenedor */
+}
+
+.error {
+  color: red;
+  display: none;
+  margin: 10px 0; /* Añade 10px arriba y abajo */
+}
+
+.success {
+  color: green;
+  display: none;
+  margin: 10px 0; /* Añade 10px arriba y abajo */
+}
+
+.alert {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.alert-danger {
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+  margin: 10px 0; /* Añade 10px arriba y abajo */
+}
+
+.alert-success {
+  color: #3c763d;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+  margin: 10px 0; /* Añade 10px arriba y abajo */
+}
+
+body {
+  /*background-image: url('uploads/3d.png');*/
+  background: -webkit-linear-gradient(90deg,#408197,#304869,#24132f); /* Chrome 10-25, Safari 5.1-6 */ background: linear-gradient(90deg,#408197,#304869,#24132f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  background-size: cover;
+  background-position: center;
+  /*background-repeat: no-repeat;*/
+  height: 100vh; /* Para que la imagen ocupe toda la altura de la página */
+  /*display: flex;*/
+}
+
+
+
+.login-container {
+  /*background: rgba(255, 255, 255, 0.8);*/
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: -50px; /* Ajusta este valor según tus necesidades */
+}
+
+h1 {
+  color: white;
+}
+
+
+  
+  
